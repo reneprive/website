@@ -752,7 +752,7 @@ currently assigned to that name. To support tainting a specific hardware
 instance, CEL selectors can be used in a DeviceTaintRule to match a vendor-specific
 unique ID attribute, if the driver supports one for its hardware.
 
-The taint applies as long as the DeviceTaintRule exists. It can be modified and
+The taint applies as long as the DeviceTaintRule exists. It can be modified 
 and removed at any time. Here is one example of a DeviceTaintRule for a fictional
 DRA driver:
 
